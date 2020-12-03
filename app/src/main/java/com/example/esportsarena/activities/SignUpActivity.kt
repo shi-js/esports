@@ -99,7 +99,7 @@ class SignUpActivity : BaseActivity() {
 
         toolbar_sign_up_activity.setNavigationOnClickListener { onBackPressed() }
 
-        btnSignUp.setOnClickListener {
+        btn_sign_up.setOnClickListener {
             registerUser()
         }
 
@@ -126,9 +126,9 @@ class SignUpActivity : BaseActivity() {
     }
 
     private fun registerUser(){
-        val name: String = edtName.text.toString().trim { it <= ' '}
-        val email: String = edtEmail.text.toString().trim { it <= ' '}
-        val password: String = edtPassword.text.toString().trim { it <= ' '}
+        val name: String = et_name.text.toString().trim { it <= ' '}
+        val email: String = et_email.text.toString().trim { it <= ' '}
+        val password: String = et_password.text.toString().trim { it <= ' '}
 
         if(validateForm(name,email,password)){
             showprogressDialog(resources.getString(R.string.please_wait))

@@ -106,15 +106,6 @@ class SignInActivity : BaseActivity() {
         }
     }
 
-
-
-
-
-
-
-
-
-
     companion object {
         private const val TAG = "GoogleActivity"
         private const val RC_SIGN_IN = 9001

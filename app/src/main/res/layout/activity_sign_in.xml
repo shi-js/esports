@@ -19,7 +19,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:text="@string/sign_in"
-            android:textColor="@color/primary_text_color"
+            android:textColor="@color/colorPrimary"
             android:textSize="@dimen/toolbar_title_text_size"
             android:textStyle="bold"/>
     </androidx.appcompat.widget.Toolbar>
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sign_in_description_text"
-            android:textColor="@color/secondary_text_color"
+            android:textColor="@color/colorPrimaryDark"
             android:gravity="center"
             android:textSize="@dimen/authentication_description_text_size"
             android:layout_marginTop="@dimen/authentication_screen_content_marginTop"
@@ -91,7 +91,7 @@
                     android:id="@+id/btnSignIn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_blue_rounded"
+                    android:background="@drawable/nav_header_main_background"
                     android:text="@string/sign_in"
                     android:textColor="@android:color/white"
                     android:textSize="@dimen/btn_text_size"
@@ -103,10 +103,6 @@
                     android:paddingTop="@dimen/btn_paddingTopBottom"
                     android:paddingBottom="@dimen/btn_paddingTopBottom"
                     />
-
-
-
-
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
