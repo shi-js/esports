@@ -1,4 +1,4 @@
-package com.example.projemanage.activities
+package com.example.esportsarena.activities
 
 import android.app.Dialog
 import androidx.appcompat.app.AppCompatActivity

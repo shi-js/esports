@@ -7,7 +7,6 @@ import android.view.WindowManager
 import android.widget.Toast
 import com.example.esportsarena.R
 import com.example.esportsarena.models.User
-import com.example.projemanage.activities.BaseActivity
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_sign_in.*
@@ -26,10 +25,6 @@ class SignInActivity : BaseActivity() {
         setupActionBar()
 
         auth = FirebaseAuth.getInstance()
-
-
-
-
 
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,

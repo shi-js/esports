@@ -1,6 +1,7 @@
 package com.example.esportsarena.activities;
 
 import android.app.Activity;
+import android.view.WindowManager;
 
-public class MyProfileActivity2 extends Activity {
+class MyProfileActivity2 extends Activity {
 }

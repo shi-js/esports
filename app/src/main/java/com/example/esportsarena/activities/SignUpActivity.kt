@@ -9,7 +9,6 @@ import android.widget.Toast
 import com.example.esportsarena.Firebase.FirestoreClass
 import com.example.esportsarena.R
 import com.example.esportsarena.models.User
-import com.example.projemanage.activities.BaseActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
